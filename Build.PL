@@ -28,7 +28,8 @@ my $builder = Module::Build->new(
     'Readonly'        => '2.05',
     'Term::ANSIColor' => '4.06',
   },
-  add_to_cleanup => ['EPFL-Net-ipv6Test-*'],
+  add_to_cleanup     => ['EPFL-Net-ipv6Test-*'],
+  create_makefile_pl => 'traditional',
 );
 
 $builder->create_build_script();
