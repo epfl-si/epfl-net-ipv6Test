@@ -28,6 +28,11 @@ my $builder = Module::Build->new(
     'Readonly'        => '2.05',
     'Term::ANSIColor' => '4.06',
   },
+  meta_merge => {
+    resources => {
+      repository => 'https://github.com/epfl-idevelop/epfl-net-ipv6Test',
+    },
+  },
   add_to_cleanup     => ['EPFL-Net-ipv6Test-*'],
   create_makefile_pl => 'traditional',
 );
