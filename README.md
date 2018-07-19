@@ -5,6 +5,8 @@ EPFL-Net-ipv6Test
 [![Apache License 2.0][license-image]][license-url]
 [![CPAN Version][cpan-image]][cpan-url]
 
+Website IPv6 accessibility validator.
+
 Install
 -------
 
