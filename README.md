@@ -47,6 +47,11 @@ print @{$dns->{dns_servers}};
 # => 'ns3.google.comns2.google.comns1.google.comns4.google.com'
 ```
 
+Screenshot
+----------
+
+![command line screenshot](https://raw.githubusercontent.com/epfl-idevelop/epfl-net-ipv6Test/master/docs/readme/screenshot.png)
+
 Contributing
 ------------
 
